@@ -25,9 +25,9 @@ print(mood_responses.mood_response(mood))
 mood as input (e.g., happy, sad, excited) and return a corresponding 
 custom message.
 """
-from  mood_responses import mood_response
-mood = input("How are you feeling today? ").lower()
-print(mood_response(mood))
+import mood_responses
+mood = input("How are you feeling today? ").title()
+print(mood_responses.mood_response(mood))
 
 
 # 2 Mastering Python Modules and Aliases
